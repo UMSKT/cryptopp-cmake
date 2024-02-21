@@ -30,7 +30,7 @@ else()
         string(
             APPEND
             source_location
-            "releases/download/CRYPTOPP_${version_underscore}/cryptopp${cryptopp-cmake_VERSION_MAJOR}${cryptopp-cmake_VERSION_MINOR}${cryptopp-cmake_VERSION_PATCH}"
+            "archive/refs/tags/CRYPTOPP_${version_underscore}"
         )
     else()
         string(APPEND source_location "archive/refs/heads/master")
